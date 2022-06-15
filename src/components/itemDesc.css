@@ -1,0 +1,102 @@
+.container2{
+    justify-content: center;
+    display: inline-flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+}
+
+.descContainer{
+    width: 70%;
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: white;
+    /* padding: 20px; */
+    margin-top: 75px;
+}
+
+.descHeaderNombre{
+    grid-row:1;
+    grid-column: 1/ span 4;
+    height: 80px;
+    font-size: 25px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+.descHeaderId{
+    grid-row:1;
+    grid-column: 5;
+    height: 80px;
+    font-size: 25px;
+    color:#8a8888;    
+    line-height: 80px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.descBasicos{
+    grid-row:2;
+    grid-column: 1/ span 2;
+    padding-left: 20px;
+}
+
+.descTablas{
+    grid-row:2;
+    grid-column: 3/ span 3;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.descTit1{
+    display: block;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+.descDesc1{
+    display: block;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.statusGreen-small{
+    width: 15px;
+  height: 15px;
+  background-color: #278e06;
+  border-radius: 15px;
+  display: inline-block;
+}
+.statusRed-small{
+    width: 15px;
+  height: 15px;
+  background-color: #e13e5b;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.descTable{
+    width: 100%;
+    margin: 20px;
+}
+
+.tablaTit2{
+    font-weight: bolder;
+    background-color: #e4e4e4 ;
+    text-align: center;
+    padding: 5px;
+}
+
+.tdDescTabla{
+    width: 50%;
+    text-align: right;
+    padding: 2px;
+
+}
+
+.tdDescTabla2{
+    width: 50%;
+    text-align: left;
+    padding: 2px;
+
+}

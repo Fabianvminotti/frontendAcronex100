@@ -1,0 +1,116 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.searchBar{
+  height: 50px;
+  width: 100%;
+  background-color: #4980cc;
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px;
+  
+}
+
+.searchBarLogo{  
+  grid-row:1;
+  grid-column: 1/1;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.searchBarLogo img{
+  height: 100% !important;
+  margin-left: 5px;
+}
+#logo2{
+  height: 100%;
+}
+
+.searchBarSearch{
+  grid-row: 1;
+  grid-column: 2 / 4;
+  padding: 8px;
+}
+.searchBarSearch input{
+  width: 100%;
+  height: 100%;
+  border:none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #706f6f;
+}
+
+.searchBarSearch ::-webkit-input-placeholder{
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align:middle;
+  text-align:right;
+  padding-right:5px;
+  color: #706f6f;
+  font-size: 18px;
+}
+
+.searchBarMenu{
+  grid-row:1;
+  grid-column: 4/4;
+}
+
+#container{
+  background-color: #e4e4e4;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.tablaSearch{
+  width: 70%;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 75px;
+}
+
+body{
+  background-color: #e4e4e4;
+}
+
+a{
+  width:100% !important;
+  text-decoration: none !important;
+  display: block !important;  
+}
+
+
+.trSearch{
+  height: 80px;
+  font-size: 17px;
+  border: 1px solid #e4e4e4 ;
+}
+
+.celdaId{
+  width: 10%;
+  text-align: center;
+  color: red !important;
+}
+.celdaDesc{
+  width: 80%;
+}
+.celdaStatus{
+  width: 10%;
+}
+
+.statusGreen{
+  width: 25px;
+  height: 25px;
+  background-color: #278e06;
+  border-radius: 15px;
+}
+
+.statusRed{
+  width: 25px;
+  height: 25px;
+  background-color: #e13e5b;
+  border-radius: 15px;
+}
+
+
+

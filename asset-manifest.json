@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/frontendAcronex100/static/css/main.30fb05a7.css",
+    "main.js": "/frontendAcronex100/static/js/main.a6122b13.js",
+    "static/js/787.9946ed5f.chunk.js": "/frontendAcronex100/static/js/787.9946ed5f.chunk.js",
+    "static/media/unimap_blanco.svg": "/frontendAcronex100/static/media/unimap_blanco.2adc94d1cea0b2675d14166a6c3bb13c.svg",
+    "static/media/logo.svg": "/frontendAcronex100/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/frontendAcronex100/index.html",
+    "main.30fb05a7.css.map": "/frontendAcronex100/static/css/main.30fb05a7.css.map",
+    "main.a6122b13.js.map": "/frontendAcronex100/static/js/main.a6122b13.js.map",
+    "787.9946ed5f.chunk.js.map": "/frontendAcronex100/static/js/787.9946ed5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30fb05a7.css",
+    "static/js/main.a6122b13.js"
+  ]
+}
